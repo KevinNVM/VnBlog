@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #6c757d;
+    --color-secondary: rgb(30, 30, 30);
+    --color-light-dark: #262626;
+}
+
+body {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+img#profileImage {
+    width: 25px;
+    height: 25px;
+}
+
+form label {
+    color: rgba(30, 30, 30, 98%);
+}
